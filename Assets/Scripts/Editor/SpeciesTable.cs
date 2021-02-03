@@ -40,10 +40,10 @@ namespace Editor
             }
 
             [ShowInInspector]
-            public StatusComponent status
+            public SpStrComponent spStr
             {
-                get=>species.status;
-                set { species.status = value; }
+                get=>species.spStr;
+                set { species.spStr = value; }
             }
         }
     }
