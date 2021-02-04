@@ -2,10 +2,8 @@
 
 namespace Game.ECS
 {
-    public struct SpStrComponent:IComponentData
+    public struct SpComponent:IComponentData
     {
-        public int hp;
-        public int sp;
         public Gift gift;
     }
 

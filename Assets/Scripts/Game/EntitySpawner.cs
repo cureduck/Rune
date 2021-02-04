@@ -16,7 +16,7 @@ namespace Game
             em = World.DefaultGameObjectInjectionWorld.EntityManager;
 
             EntityArchetype unitArch = em.CreateArchetype(
-                typeof(SpStrComponent),
+                typeof(SpComponent),
                 typeof(BuffComponent),
                 typeof(SkillComponent),
                 typeof(StatusComponent),

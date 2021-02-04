@@ -7,6 +7,6 @@ namespace Editor
     [CreateAssetMenu(fileName = "Human", menuName = "Game/Species", order = 0)]
     public class Species : SerializedScriptableObject
     {
-        public SpStrComponent spStr;
+        public SpComponent sp;
     }
 }

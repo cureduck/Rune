@@ -40,10 +40,10 @@ namespace Editor
             }
 
             [ShowInInspector]
-            public SpStrComponent spStr
+            public SpComponent Sp
             {
-                get=>species.spStr;
-                set { species.spStr = value; }
+                get=>species.sp;
+                set { species.sp = value; }
             }
         }
     }

@@ -14,6 +14,7 @@ namespace Game.ECS
         public int level;
         public float maxDuration;
         public float leftDuration;
+        public int stack;
     }
     
 }
